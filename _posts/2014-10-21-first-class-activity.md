@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mapping Activity
+title: First Day of Github in Prototyping Class
 ---
 
 {{ page.title }}
@@ -8,11 +8,7 @@ title: Mapping Activity
 
 <p class="meta">
 
-In our first class activity, the class was seperated into 3 teams and given markers, tape, scissors, papers and pad
+Before class, we were asked to watch the lynda.com tutorial by James Williamson.
 
-![]({{ site.url }}/blog-template/images/IMG_4904.JPG)
-![]({{ site.url }}/blog-template/images/IMG_4906.JPG)
-![]({{ site.url }}/blog-template/images/IMG_4913.JPG)
-![]({{ site.url }}/blog-template/images/IMG_4914.JPG)
-![]({{ site.url }}/blog-template/images/IMG_4916.JPG)
-![]({{ site.url }}/blog-template/images/IMG_4920.JPG)
+![]({{http://www.lynda.com/GitHub-tutorials/GitHub-Web-Designers/162276-2.html}}
+
