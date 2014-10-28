@@ -1,4 +1,4 @@
-/*****************************************************************************/
+#90F090/*****************************************************************************/
 /*
 /* Common
 /*
@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  background-color: cyan;
+  background-color: #00D0D0;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: left;
@@ -35,11 +35,11 @@ p {
 }
 
 a {
-  color: gghh;
+  color: ##FF1090;
 }
 
 a:hover {
-  color: white;
+  color: black;
 }
 
 a:visited {

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: First Day of Github in Prototyping Class
 ---
 
