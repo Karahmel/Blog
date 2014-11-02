@@ -59,17 +59,17 @@ table {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 
   ul.posts li {
-    line-height: 1.75em;
+    line-height: .75em;
   }
 
   ul.posts span {
-    color: ##ffb1d8;
+    color: ##c7ff1e;
     font-family: Monaco, "century gothic", monospace;
-    font-size: 80%;
+    font-size: 100%;
   }
 
 /*****************************************************************************/
