@@ -78,9 +78,9 @@ ul.posts {
 /* Site
 /*
 /*****************************************************************************/
-
+/This is the content of the links, I think
 .site {
-  font-size: 110%;
+  font-size: 70%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em auto;
@@ -88,13 +88,13 @@ ul.posts {
 }
 
 .title {
-  color: ##ffffbe;
-  font-weight: bold;
+  color: #ffffbe;
+  font-weight: light;
   margin-bottom: 1em;
 }
 
   .site .title a {
-    color: #ffffbe;
+    color: black;
     text-decoration: none;
   }
 
