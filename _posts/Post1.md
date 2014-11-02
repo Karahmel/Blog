@@ -10,4 +10,4 @@ title: Experimenting with Posts
 
 I am trying to insert images that show up automatically. If this works, these are my adorable grandparents.
 
-![]({{ site.url }}/Blog/images/Lews.JPG)
+![](http://karahmel.github.io/Blog/images/Lews.jpg)
