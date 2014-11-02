@@ -18,7 +18,7 @@ html, body {
 
 body {
   background-color: #69008c;
-  font: 48px century gothic, arial, clean, sans-serif;
+  font: 48px century gothic, times new roman, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -89,7 +89,7 @@ ul.posts {
 }
 
 .title {
-  color: black;
+  color: white;
   margin-bottom: 2em;
    margin-top: 4em;
 }
@@ -161,19 +161,19 @@ ul.posts {
 
   #post pre {
     border: 1px solid #ddd;
-    background-color: #ffffbe;
+    background-color: #000084;
     padding: 0 2.4em;
   }
 
   #post ul,
   #post ol {
-    margin-left: 1.35em;
+    margin-left: 3em;
   }
 
   #post code {
     border: 1px solid white;
     background-color: #eef;
-    font-size: 60%;
+    font-size: 100%;
     padding: 0 .2em;
   }
 
