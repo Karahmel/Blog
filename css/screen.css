@@ -15,16 +15,16 @@
 html, body {
   height: 100%;
 }
-
+/Below color is definitely the background color for the whole home page
 body {
   background-color: #69008c;
   font: 36px century gothic, arial, clean, sans-serif;
   *font-size: small;
   text-align: left;
 }
-
+/Below is the heading size relative to the title size
 h1, h2, h3, h4, h5, h6 {
-  font-size: 80%;
+  font-size: 180%;
 }
 
 h1 {
