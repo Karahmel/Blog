@@ -16,14 +16,14 @@ html, body {
 }
 
 body {
-  background-color: #009cd0;
-  font: 36px century gothic, arial, clean, sans-serif;
+  background-color: #d0009c;
+  font: 100px century gothic, arial, clean, sans-serif;
   *font-size: large;
   text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 40%;
+  font-size: 50%;
 }
 
 h1 {
@@ -35,11 +35,11 @@ p {
 }
 
 a {
-  color: #00a;
+  color: #9cd000;
 }
 
 a:hover {
-  color: ##00eeee;
+  color: white;
 }
 
 a:visited {
@@ -67,7 +67,7 @@ ul.posts {
   }
 
   ul.posts span {
-    color: #white;
+    color: white;
     font-family: Monaco, "century gothic", monospace;
     font-size: 70%;
   }
@@ -112,15 +112,16 @@ ul.posts {
   }
 
   .site .meta {
-    color: #aaa;
+    color: #009cd0;
   }
 
   .site .footer {
-    font-size: 50%;
-    color: #efefef;
+    font-size: 40%;
+    color: #009cd0;
     border-top: 8px solid #353535;
     margin-top: 2em;
     overflow: hidden;
+    border-bottom: 3px solid #d0009c;
   border-bottom: 8px solid #353535;
   }
 
