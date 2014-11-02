@@ -32,11 +32,11 @@ h1 {
 }
 
 p {
-  margin: 1em;
+  margin: .5em;
 }
 
 a {
-  color: black;
+  color: #dfffbe;
 }
 
 a:hover {
@@ -88,8 +88,8 @@ ul.posts {
 }
 
 .title {
-  color: white;
-  margin-bottom: 1em;
+  color: black;
+  margin-bottom: 2em;
 }
 
   .site .title a {
