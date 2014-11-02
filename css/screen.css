@@ -69,7 +69,7 @@ ul.posts {
   ul.posts span {
     color: white;
    font-weight: light;
-    font-family: Monaco, "courier", monospace;
+    font-family: Monaco, "century gothic", monospace;
     font-size: 80%;
   }
 
@@ -80,7 +80,7 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  font-size: 30%;
+  font-size: 100%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em auto;
