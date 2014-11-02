@@ -19,7 +19,7 @@ body {
   background-color: #d0009c;
   font: 100px century gothic, arial, clean, sans-serif;
   *font-size: large;
-  text-align: left;
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,7 +35,7 @@ p {
 }
 
 a {
-  color: #9cd000;
+  color: #ffe4f8;
 }
 
 a:hover {
@@ -63,7 +63,7 @@ ul.posts {
 }
 
   ul.posts li {
-    line-height: 1.5em;
+    line-height: 1.75em;
   }
 
   ul.posts span {
@@ -79,7 +79,7 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  font-size: 100%;
+  font-size: 60%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em auto;
@@ -87,13 +87,13 @@ ul.posts {
 }
 
 .title {
-  color: white;
-  font-weight: bold;white
+  color: #e4fff9;
+  font-weight: bold;
   margin-bottom: 2em;
 }
 
   .site .title a {
-    color: white;
+    color: #98ffe8;
     text-decoration: none;
   }
 
@@ -117,7 +117,7 @@ ul.posts {
 
   .site .footer {
     font-size: 40%;
-    color: #009cd0;
+    color: #e6fffa;
     border-top: 8px solid #353535;
     margin-top: 2em;
     overflow: hidden;
@@ -127,7 +127,7 @@ ul.posts {
 
     .site .footer .contact {
       float: left;
-      margin-right: 3em;
+      margin-left: 3em;
     }
 
       .site .footer .contact a {
