@@ -83,13 +83,14 @@ ul.posts {
   font-size: 70%;
   text-align: justify;
   width: 42em;
-  margin: 1em auto 2em auto;
+  margin: 4em auto 2em auto;
   line-height: .7em;
 }
 
 .title {
   color: black;
   margin-bottom: 2em;
+   margin-top: 4em;
 }
 
   .site .title a {
@@ -98,7 +99,7 @@ ul.posts {
   }
 
   .site .title a:hover {
-    color: black;
+    color: #00d0d0;
   }
 
   .site .title a.extra {
@@ -127,12 +128,12 @@ ul.posts {
 
     .site .footer .contact {
       float: left;
-      margin-left: 2em;
+      margin-left: 1em;
     }
     
 
       .site .footer .contact a {
-        color: #f8f5f5;
+        color: #00d0d0;
       }
 
     .site .footer .rss {
