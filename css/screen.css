@@ -96,7 +96,7 @@ ul.posts {
 
   .site .title a {
     color: white;
-    text-decoration: small caps;
+    text-decoration: none;
   }
 
   .site .title a:hover {
