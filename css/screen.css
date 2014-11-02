@@ -18,7 +18,7 @@ html, body {
 body {
   background-color: #009cd0;
   font: 36px garamond, arial, clean, sans-serif;
-  *font-size: small;
+  *font-size: large;
   text-align: left;
 }
 
@@ -39,16 +39,16 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: #1effff;
 }
 
 a:visited {
-  color: #a0a;
+  color: #a071bd;
 }
 
 table {
   font-size: inherit;
-  font: 100%;
+  font: 90%;
 }
 
 /*****************************************************************************/
@@ -68,8 +68,8 @@ ul.posts {
 
   ul.posts span {
     color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
+    font-family: Monaco, "century gothic", monospace;
+    font-size: 70%;
   }
 
 /*****************************************************************************/
@@ -87,18 +87,18 @@ ul.posts {
 }
 
 .title {
-  color: #a00;
-  font-weight: bold;
+  color: white;
+  font-weight: bold;white
   margin-bottom: 2em;
 }
 
   .site .title a {
-    color: #a00;
+    color: white;
     text-decoration: none;
   }
 
   .site .title a:hover {
-    color: black;
+    color: #4000ff;
   }
 
   .site .title a.extra {
@@ -116,11 +116,12 @@ ul.posts {
   }
 
   .site .footer {
-    font-size: 80%;
-    color: #666;
-    border-top: 4px solid #eee;
+    font-size: 50%;
+    color: #efefef;
+    border-top: 8px solid #353535;
     margin-top: 2em;
     overflow: hidden;
+     border-bottom: 8px solid #353535;
   }
 
     .site .footer .contact {
@@ -156,7 +157,7 @@ ul.posts {
 
   #post pre {
     border: 1px solid #ddd;
-    background-color: #eef;
+    background-color: #0000b3;
     padding: 0 .4em;
   }
 
