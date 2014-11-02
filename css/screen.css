@@ -66,9 +66,10 @@ ul.posts {
   ul.posts li {
     line-height: 1em;
   }
-
+/Below, whatever turns light is this
   ul.posts span {
     color: white;
+   font-weight: light;
     font-family: Monaco, "century gothic", monospace;
     font-size: 80%;
   }
@@ -78,7 +79,7 @@ ul.posts {
 /* Site
 /*
 /*****************************************************************************/
-/This is the content of the links, I think
+
 .site {
   font-size: 70%;
   text-align: justify;
@@ -86,9 +87,9 @@ ul.posts {
   margin: 3em auto 2em auto;
   line-height: 1em;
 }
-
+/Below is the Actual title, I think. True if the color changes.
 .title {
-  color: #ffffbe;
+  color: #b1ffc5;
   font-weight: light;
   margin-bottom: 1em;
 }
