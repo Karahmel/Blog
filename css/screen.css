@@ -12,7 +12,7 @@
 }
 
 html, body {
-  height: 10%;
+  height: 100%;
 }
 
 body {
@@ -35,7 +35,7 @@ p {
 }
 
 a {
-  color: #ffe4f8;
+  color: #9cd000;
 }
 
 a:hover {
