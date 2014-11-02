@@ -31,15 +31,15 @@ h1 {
 }
 
 p {
-  margin: 10em 0;
+  margin: 1em 0;
 }
 
 a {
-  color: black;
+  color: white;
 }
 
 a:hover {
-  color: white;
+  color: #ffb1eb;
 }
 
 a:visited {
