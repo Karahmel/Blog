@@ -5,7 +5,7 @@
 /*****************************************************************************/
 
 /* Global Reset */
-/I thought this was the page margin but now not sure
+
 * {
   margin: 0;
   padding: 0;
@@ -15,14 +15,14 @@
 html, body {
   height: 100%;
 }
-/Below color is definitely the background color for the whole home page
+
 body {
   background-color: #69008c;
   font: 36px century gothic, arial, clean, sans-serif;
   *font-size: small;
   text-align: left;
 }
-/Below is the heading size relative to the title size
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 180%;
 }
@@ -66,7 +66,7 @@ ul.posts {
   ul.posts li {
     line-height: 1em;
   }
-/Below, whatever turns light is this
+
   ul.posts span {
     color: white;
    font-weight: light;
@@ -87,7 +87,7 @@ ul.posts {
   margin: 3em auto 2em auto;
   line-height: 1em;
 }
-/Below is the Actual title, I think. True if the color changes.
+
 .title {
   color: #b1ffc5;
   font-weight: light;
@@ -132,7 +132,7 @@ ul.posts {
       margin-left: 1em;
     }
     
-/This is the footer link color
+
       .site .footer .contact a {
         color: #f8f5f5;
       }
