@@ -24,7 +24,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 90%;
-  font-weight: light;
 }
 
 h1 {
@@ -44,12 +43,12 @@ a:hover {
 }
 
 a:visited {
-  color: #ffb1d8;
+  color: #b1ffff;
 }
 
 table {
   font-size: inherit;
-  font: 100%;
+  font: 60%;
 }
 
 /*****************************************************************************/
