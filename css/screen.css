@@ -169,9 +169,9 @@ ul.posts {
   }
 
   #post code {
-    border: 1px solid #ddd;
+    border: 1px solid white;
     background-color: #eef;
-    font-size: 85%;
+    font-size: 60%;
     padding: 0 .2em;
   }
 
