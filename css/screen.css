@@ -8,7 +8,7 @@
 
 * {
   margin: 0;
-  padding: 10;
+  padding: 0;
 
 }
 
@@ -18,7 +18,7 @@ html, body {
 
 body {
   background-color: #69008c;
-  font: 48px century gothic, arial, clean, sans-serif;
+  font: 36px century gothic, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -68,7 +68,7 @@ ul.posts {
   }
 
   ul.posts span {
-    color: #e6f6ed;
+    color: white;
     font-family: Century gothic, "century gothic", monospace;
     font-size: 90%;
   }
