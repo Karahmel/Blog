@@ -12,18 +12,18 @@
 }
 
 html, body {
-  height: 80%;
+  height: 10%;
 }
 
 body {
   background-color: #d0009c;
-  font: 100px century gothic, arial, clean, sans-serif;
-  *font-size: large;
-  text-align: center;
+  font: 24px century gothic, arial, clean, sans-serif;
+  *font-size: small;
+  text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 50%;
+  font-size: 80%;
 }
 
 h1 {
@@ -48,7 +48,7 @@ a:visited {
 
 table {
   font-size: inherit;
-  font: 90%;
+  font: 100%;
 }
 
 /*****************************************************************************/
@@ -67,9 +67,9 @@ ul.posts {
   }
 
   ul.posts span {
-    color: white;
+    color: #aaa;
     font-family: Monaco, "century gothic", monospace;
-    font-size: 70%;
+    font-size: 80%;
   }
 
 /*****************************************************************************/
@@ -79,7 +79,7 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  font-size: 60%;
+  font-size: 110%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em auto;
@@ -87,13 +87,13 @@ ul.posts {
 }
 
 .title {
-  color: #e4fff9;
+  color: #a00;
   font-weight: bold;
   margin-bottom: 2em;
 }
 
   .site .title a {
-    color: #98ffe8;
+    color: #a00;
     text-decoration: none;
   }
 
@@ -102,7 +102,7 @@ ul.posts {
   }
 
   .site .title a.extra {
-    color: white;
+    color: #aaa;
     text-decoration: none;
     margin-left: 1em;
   }
@@ -112,17 +112,17 @@ ul.posts {
   }
 
   .site .meta {
-    color: #009cd0;
+    color: #00d0d0;
   }
 
   .site .footer {
-    font-size: 40%;
+    font-size: 60%;
     color: #e6fffa;
-    border-top: 8px solid #353535;
+    border-top: 3px solid #353535;
     margin-top: 2em;
     overflow: hidden;
     border-bottom: 3px solid #d0009c;
-  border-bottom: 8px solid #353535;
+
   }
 
     .site .footer .contact {
@@ -158,7 +158,7 @@ ul.posts {
 
   #post pre {
     border: 1px solid #ddd;
-    background-color: black;
+    background-color: #eef;
     padding: 0 .4em;
   }
 
@@ -169,8 +169,8 @@ ul.posts {
 
   #post code {
     border: 1px solid #ddd;
-    background-color: red;
-    font-size: 1110%;
+    background-color: #eef;
+    font-size: 85%;
     padding: 0 .2em;
   }
 
@@ -183,7 +183,7 @@ ul.posts {
   #post pre.terminal {
     border: 1px solid black;
     background-color: #333;
-    color: lime;
+    color: white;
   }
 
   #post pre.terminal code {
