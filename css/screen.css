@@ -13,7 +13,7 @@
 }
 
 html, body {
-  height: 40%;
+  height: 100%;
 }
 
 body {
@@ -60,7 +60,7 @@ table {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
   ul.posts li {
@@ -80,11 +80,11 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  font-size: 100%;
+  font-size: 70%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em auto;
-  line-height: 1em;
+  line-height: 1.5em;
 }
 
 .title {
