@@ -23,7 +23,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+  font-size: 80%;
 }
 
 h1 {
@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-  color: #1effff;
+  color: ##00eeee;
 }
 
 a:visited {
@@ -63,11 +63,11 @@ ul.posts {
 }
 
   ul.posts li {
-    line-height: 1.75em;
+    line-height: 1.5em;
   }
 
   ul.posts span {
-    color: #aaa;
+    color: #white;
     font-family: Monaco, "century gothic", monospace;
     font-size: 70%;
   }
@@ -79,7 +79,7 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  font-size: 110%;
+  font-size: 100%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em auto;
@@ -98,11 +98,11 @@ ul.posts {
   }
 
   .site .title a:hover {
-    color: #4000ff;
+    color: white;
   }
 
   .site .title a.extra {
-    color: #aaa;
+    color: white;
     text-decoration: none;
     margin-left: 1em;
   }
@@ -121,7 +121,7 @@ ul.posts {
     border-top: 8px solid #353535;
     margin-top: 2em;
     overflow: hidden;
-     border-bottom: 8px solid #353535;
+  border-bottom: 8px solid #353535;
   }
 
     .site .footer .contact {
@@ -157,7 +157,7 @@ ul.posts {
 
   #post pre {
     border: 1px solid #ddd;
-    background-color: #0000b3;
+    background-color: black;
     padding: 0 .4em;
   }
 
@@ -168,8 +168,8 @@ ul.posts {
 
   #post code {
     border: 1px solid #ddd;
-    background-color: #eef;
-    font-size: 85%;
+    background-color: red;
+    font-size: 1110%;
     padding: 0 .2em;
   }
 
@@ -182,7 +182,7 @@ ul.posts {
   #post pre.terminal {
     border: 1px solid black;
     background-color: #333;
-    color: white;
+    color: lime;
   }
 
   #post pre.terminal code {
