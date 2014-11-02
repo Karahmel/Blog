@@ -9,7 +9,7 @@
 * {
   margin: 0;
   padding: 0;
-      margin-left: 1.35em;
+  margin-left: 1.35em;
 }
 
 html, body {
@@ -20,7 +20,7 @@ body {
   background-color: #d0009c;
   font: 36px century gothic, arial, clean, sans-serif;
   *font-size: small;
-  text-align: center;
+  text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
