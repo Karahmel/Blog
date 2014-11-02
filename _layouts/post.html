@@ -1,6 +1,6 @@
 
 ---
-layout: post
+layout: default
 ---
 <div id="post">
 {{ content }}
@@ -12,7 +12,7 @@ layout: post
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-<img style="position: absolute; top: 0; right: 0; border: 0;" src="images/stripe.png">
+
 </div>
 
 {% include footer.html %}
