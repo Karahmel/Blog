@@ -5,7 +5,7 @@
 /*****************************************************************************/
 
 /* Global Reset */
-
+/I thought this was the page margin but now not sure
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +32,7 @@ h1 {
 }
 
 p {
-  margin: 2em 0;
+  margin: 1em 0;
 }
 
 a {
@@ -82,7 +82,7 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: justify;
-  width: 22em;
+  width: 52em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
