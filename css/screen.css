@@ -32,7 +32,7 @@ h1 {
 }
 
 p {
-  margin: 1em 0;
+  margin: 1em;
 }
 
 a {
@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-  color: #ffb1eb;
+  color: ##b1ffc5;
 }
 
 a:visited {
@@ -60,11 +60,11 @@ table {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
   ul.posts li {
-    line-height: 1.5em;
+    line-height: 1em;
   }
 
   ul.posts span {
@@ -84,7 +84,7 @@ ul.posts {
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em auto;
-  line-height: 1.5em;
+  line-height: 1em;
 }
 
 .title {
