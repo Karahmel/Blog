@@ -17,13 +17,13 @@ html, body {
 
 body {
   background-color: #009cd0;
-  font: 36px garamond, arial, clean, sans-serif;
+  font: 36px century gothic, arial, clean, sans-serif;
   *font-size: large;
   text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 80%;
+  font-size: 40%;
 }
 
 h1 {
