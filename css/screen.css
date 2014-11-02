@@ -17,9 +17,9 @@ html, body {
 
 body {
   background-color: #009cd0;
-  font: 16px helvetica, arial, clean, sans-serif;
+  font: 36px garamond, arial, clean, sans-serif;
   *font-size: small;
-  text-align: center;
+  text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
