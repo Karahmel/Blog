@@ -8,7 +8,7 @@
 
 * {
   margin: 0;
-  padding: 10;
+  padding: 40;
 }
 
 html, body {
@@ -17,13 +17,13 @@ html, body {
 
 body {
   background-color: #d0009c;
-  font: 24px century gothic, arial, clean, sans-serif;
+  font: 36px century gothic, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 80%;
+  font-size: 60%;
 }
 
 h1 {
