@@ -1,0 +1,17 @@
+---
+layout: default
+title: Questions for Amy Lee and Nate
+---
+
+{{ page.title }}
+================
+
+1) Why won't my images show up on the post pages?
+2) What is the point of the default and post layouts? When is each used?
+3) How do I make this text on posts a different color/size/more spread out?
+4) Can I make a two or three column setup for psots?
+5) If I want a picture to show up on the same spot on every page, should I add it to default or footer?
+
+And here is a picture, just for fun.
+![](http://karahmel.github.io/Blog/images/Halloween.jpg)
+
