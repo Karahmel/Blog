@@ -9,7 +9,7 @@
 * {
   margin: 0;
   padding: 0;
-  margin-left: 1.35em;
+  margin-left: 1.15em;
 }
 
 html, body {
@@ -17,7 +17,7 @@ html, body {
 }
 
 body {
-  background-color: #698c00;
+  background-color: #69008c;
   font: 36px century gothic, arial, clean, sans-serif;
   *font-size: small;
   text-align: left;
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  margin-bottom: .5em 2;
+  margin-bottom: 1em;
 }
 
 p {
@@ -60,17 +60,17 @@ table {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 1em;
+  margin-bottom: .75em;
 }
 
   ul.posts li {
-    line-height: 1.75em;
+    line-height: 1.5em;
   }
 
   ul.posts span {
     color: white;
     font-family: Monaco, "century gothic", monospace;
-    font-size: 90%;
+    font-size: 80%;
   }
 
 /*****************************************************************************/
@@ -82,7 +82,7 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: justify;
-  width: 42em;
+  width: 22em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
@@ -94,7 +94,7 @@ ul.posts {
 }
 
   .site .title a {
-    color: ##ffffbe;
+    color: #ffffbe;
     text-decoration: none;
   }
 
@@ -119,20 +119,21 @@ ul.posts {
   .site .footer {
     font-size: 60%;
     color: #e6fffa;
-    border-top: 3px solid #353535;
-    margin-top: 2em;
+    border-top: 3px solid white;
+    margin-top: 1em;
     overflow: hidden;
-    border-bottom: 3px solid #d0009c;
+    border-bottom: 3px solid white;
 
   }
 
     .site .footer .contact {
       float: left;
-      margin-left: 3em;
+      margin-left: 1em;
     }
-
+    
+/This is the footer link color
       .site .footer .contact a {
-        color: #8085C1;
+        color: #f8f5f5;
       }
 
     .site .footer .rss {
