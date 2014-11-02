@@ -96,7 +96,7 @@ ul.posts {
 
   .site .title a {
     color: white;
-    text-decoration: none;
+    text-decoration: small caps;
   }
 
   .site .title a:hover {
@@ -134,7 +134,7 @@ ul.posts {
     
 
       .site .footer .contact a {
-        color: #00d0d0;
+        color: #d4a2e9;
       }
 
     .site .footer .rss {
