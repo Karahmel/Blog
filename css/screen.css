@@ -9,6 +9,7 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
 html, body {
@@ -16,39 +17,40 @@ html, body {
 }
 
 body {
-  background-color: #00D0D0;
-  font: 16px helvetica, arial, clean, sans-serif;
+  background-color: #69008c;
+  font: 42px century gothic, century gothic, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+  font-size: 90%;
+  color: #d4a2e9;
 }
 
 h1 {
-  margin-bottom: 1em;
+  margin-bottom: .5em;
 }
 
 p {
-  margin: 1em 0;
+  margin: .5em;
 }
 
 a {
-  color: #00a;
+  color: #db64c3;
 }
 
 a:hover {
-  color: black;
+  color: #b1ffc5;
 }
 
 a:visited {
-  color: #a0a;
+  color: #b0a2e9;
 }
 
 table {
   font-size: inherit;
-  font: 100%;
+  font: 120%;
 }
 
 /*****************************************************************************/
@@ -59,17 +61,17 @@ table {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 
   ul.posts li {
-    line-height: 1.75em;
+    line-height: 1em;
   }
 
   ul.posts span {
-    color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
+    color: white;
+    font-family: Century gothic, monospace;
+    font-size: 90%;
   }
 
 /*****************************************************************************/
@@ -79,57 +81,60 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  font-size: 110%;
+  font-size: 70%;
   text-align: justify;
   width: 42em;
-  margin: 3em auto 2em auto;
-  line-height: 1.5em;
+  margin: 4em auto 2em auto;
+  line-height: .7em;
 }
 
 .title {
-  color: #a00;
-  font-weight: bold;
+  color: white;
   margin-bottom: 2em;
+   margin-top: 4em;
 }
 
   .site .title a {
-    color: #a00;
+    color: white;
     text-decoration: none;
   }
 
   .site .title a:hover {
-    color: black;
+    color: #00d0d0;
   }
 
   .site .title a.extra {
-    color: #aaa;
+    color: white;
     text-decoration: none;
-    margin-left: 1em;
+    margin-left: 0em;
   }
 
   .site .title a.extra:hover {
-    color: black;
+    color: white;
   }
 
   .site .meta {
-    color: #aaa;
+    color: #00d0d0;
   }
 
   .site .footer {
-    font-size: 80%;
-    color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
+    font-size: 60%;
+    color: #e6fffa;
+    border-top: 3px solid white;
+    margin-top: 1em;
     overflow: hidden;
+    border-bottom: 3px solid white;
+
   }
 
     .site .footer .contact {
       float: left;
-      margin-right: 3em;
+      margin-left: 0em;
     }
+    
 
       .site .footer .contact a {
-        color: #8085C1;
+        color: #d4a2e9;
       }
 
     .site .footer .rss {
@@ -156,19 +161,19 @@ ul.posts {
 
   #post pre {
     border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
+    background-color: #000084;
+    padding: 0 2.4em;
   }
 
   #post ul,
   #post ol {
-    margin-left: 1.35em;
+    margin-left: 3em;
   }
 
   #post code {
-    border: 1px solid #ddd;
+    border: 1px solid white;
     background-color: #eef;
-    font-size: 85%;
+    font-size: 100%;
     padding: 0 .2em;
   }
 
@@ -185,11 +190,11 @@ ul.posts {
   }
 
   #post pre.terminal code {
-    background-color: #333;
+    background-color: #020101;
   }
 
 #related {
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
   #related h2 {
