@@ -17,7 +17,7 @@ html, body {
 }
 
 body {
-  background-color: #d0009c;
+  background-color: #698c00;
   font: 36px century gothic, arial, clean, sans-serif;
   *font-size: small;
   text-align: left;
@@ -28,11 +28,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  margin-bottom: 1em;
+  margin-bottom: .5em 2;
 }
 
 p {
-  margin: 1em 0;
+  margin: 2em 0;
 }
 
 a {
