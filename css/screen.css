@@ -68,10 +68,10 @@ ul.posts {
   }
 
   ul.posts span {
-    color: white;
+    color: #e6f6ed;
    font-weight: light;
-    font-family: Monaco, "century gothic", monospace;
-    font-size: 80%;
+    font-family: Century gothic, "century gothic", monospace;
+    font-size: 100%;
   }
 
 /*****************************************************************************/
@@ -89,7 +89,7 @@ ul.posts {
 }
 
 .title {
-  color: #b1ffc5;
+  color: white;
   margin-bottom: 1em;
 }
 
@@ -99,7 +99,7 @@ ul.posts {
   }
 
   .site .title a:hover {
-    color: white;
+    color: black;
   }
 
   .site .title a.extra {
