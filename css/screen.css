@@ -9,6 +9,7 @@
 * {
   margin: 0;
   padding: 0;
+      margin-left: 2.35em;
 }
 
 html, body {
@@ -17,13 +18,13 @@ html, body {
 
 body {
   background-color: #d0009c;
-  font: 136px century gothic, arial, clean, sans-serif;
+  font: 36px century gothic, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 20%;
+  font-size: 80%;
 }
 
 h1 {
@@ -48,7 +49,7 @@ a:visited {
 
 table {
   font-size: inherit;
-  font: 100%;
+  font: 80%;
 }
 
 /*****************************************************************************/
@@ -69,7 +70,7 @@ ul.posts {
   ul.posts span {
     color: white;
     font-family: Monaco, "century gothic", monospace;
-    font-size: 30%;
+    font-size: 90%;
   }
 
 /*****************************************************************************/
@@ -87,13 +88,13 @@ ul.posts {
 }
 
 .title {
-  color: #a00;
-  font-weight: bold;
-  margin-bottom: 2em;
+  color: ##ffffbe;
+  font-weight: light;
+  margin-bottom: 1.5em;
 }
 
   .site .title a {
-    color: #a00;
+    color: ##ffffbe;
     text-decoration: none;
   }
 
@@ -102,7 +103,7 @@ ul.posts {
   }
 
   .site .title a.extra {
-    color: #aaa;
+    color: #ffffbe;
     text-decoration: none;
     margin-left: 1em;
   }
@@ -158,8 +159,8 @@ ul.posts {
 
   #post pre {
     border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
+    background-color: #ffffbe;
+    padding: 0 2.4em;
   }
 
   #post ul,
