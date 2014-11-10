@@ -14,12 +14,12 @@
 
 }
 html, body {
-  height: 100%;
+  height: 90%;
 }
 
 body {
   background-color: #69008c;
-  font: 42px century gothic, century gothic, clean, sans-serif;
+  font: 36px century gothic, century gothic, clean, sans-serif;
   line-height: 110%;
   *font-size: small;
   text-align: center;
