@@ -26,8 +26,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 80%;
-   line-height: 90%;
+  font-size: 100%;
   color: #d4a2e9;
 }
 
@@ -87,7 +86,7 @@ ul.posts {
 
 .site {
   color: #dddddd;
-  font: 12px century gothic, century gothic, clean, sans-serif;
+  font: 30px century gothic;
   text-align: justify;
   width: 42em;
   margin: 4em auto 2em auto;
@@ -97,6 +96,7 @@ ul.posts {
 .title {
   color: white;
   margin-bottom: 2em;
+font-size: 90%;
    margin-top: 4em;
 }
 
