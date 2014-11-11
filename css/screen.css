@@ -36,6 +36,7 @@ h1 {
 
 p {
   margin: .5em;
+    text-decoration: none;
 }
 
 a {
@@ -44,6 +45,7 @@ a {
 
 a:hover {
   color: #b1ffc5;
+    text-decoration: none;
 }
 
 a:visited {
