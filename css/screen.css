@@ -19,11 +19,13 @@ html, body {
 h1 {
 font-size: 1em;
   margin-bottom: .5em;
+   color: #d4a2e9
 }
 
 h2 {
     font-size: .875em;
      font-weight: bold;
+      color: #d4a2e9
 }
 
 h3 {
