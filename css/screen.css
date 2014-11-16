@@ -132,13 +132,13 @@ font-size: 90%;
   }
 
   .site .footer {
-    font-size: 60%;
+    font-size: 14px;
     color: #e6fffa;
     border-top: 3px solid white;
     margin-top: 1em;
     overflow: hidden;
     border-bottom: 3px solid white;
-   line-height: 100%;
+   line-height: 110%;
 
   }
 
