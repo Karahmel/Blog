@@ -25,15 +25,29 @@ font-size: 1em;
 
 h2 {
     font-size: 1em;
-      color: ##e7cbf3;
+      color: #e7cbf3;
       font-variant: small-caps;
 }
 
 h3 {
-  font-size: .75em;
+  font-size: .875em;
   color: white;
 }
 
+h4 {
+  font-size: .875em;
+  color: white;
+  text-decoration: overline;
+}
+h5 {
+  font-size: .75em;
+  color: white;
+}
+h6 {
+  font-size: .75em;
+  color: white;
+  font style: oblique;
+}
 p {
     font-size: .6em;
       margin: .5em;
@@ -54,6 +68,7 @@ a {
 a:hover {
   color: #b1ffc5;
     text-decoration: none;
+    font-size: 150%;
 }
 
 a:visited {
