@@ -17,30 +17,30 @@ html, body {
   height: 90%;
 }
 h1 {
-font-size: 22px;
+font-size: 36px;
   margin-bottom: .5em;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 28px;
      font-weight: bold;
 }
 
 p {
-    font-size: 14px;
+    font-size: 24px;
       margin: .5em;
     text-decoration: none;
 }
 
 h3, h4, h5, h6 {
-  font-size: 28px;
+  font-size: 20px;
   color: #d4a2e9;
 }
 
 
 body {
   background-color: #69008c;
-  font: 36px century gothic, century gothic, clean, sans-serif;
+  font: 20px century gothic, century gothic, clean, sans-serif;
   line-height: 110%;
   *font-size: small;
   text-align: center;
