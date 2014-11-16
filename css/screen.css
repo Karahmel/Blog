@@ -18,14 +18,13 @@ html, body {
 }
 
 h1 {
-font-size: 1.25em;
+font-size: 1em;
   margin-bottom: .4em;
    color: #d4a2e9
 }
 
 h2 {
-    font-size: .1em;
-     font-weight: bold;
+    font-size: .875em;
       color: ##e7cbf3
 }
 
@@ -35,7 +34,7 @@ h3 {
 }
 
 p {
-    font-size: 24px;
+    font-size: .6em;
       margin: .5em;
     text-decoration: none;
 }
@@ -44,7 +43,7 @@ body {
   background-color: #69008c;
   font: 16px century gothic, century gothic, clean, sans-serif;
   line-height: 110%;
-  font-size: .5em;
+  *font-size: small;
   text-align: center;
 }
 a {
