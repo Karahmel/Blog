@@ -2,39 +2,6 @@
 layout: default
 title: Karah's Blog
 ---
-
-<div id="home">
-  <h2>Posts About This Class</h2>
-  <ul class="posts">
-    {% for post in site.posts %}
-   <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}/Blog{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-
-
-  <h2>Other Things Going On in My Life</h2>
-  <ul class="posts">
-<li><span>BLS</span> &raquo; <a href="http://baltimorelabschool.org">Last Friday I designed the program for a Celebration Event at BLS</a></li>
-  <li><span>BDS</span> &raquo; &raquo; <a href="http://baltimoredesignschool.com/">I'm helping out at the BDS Open House on Wednesday</a></li>
-</ul>
-
-  <h2>Discarded Ideas for Map Project</h2>
-  <ul class="posts">
-    <li><span>1st Choice</span> &raquo; <a href="http://www.babynamewizard.com">Baby Name Trends</a></li>
-    <li><span>2nd Choice</span> &raquo; &raquo; <a href="http://www.ggweather.com/heat/">Kids and Cars- Hyperthermia Deaths</a></li>
-    <li><span>3rd Choice</span> &raquo; &raquo; &raquo; <a href="http://www.verysmallarray.com/?p=1056">Google Search Autocomplete based on Region</a></li>
-  </ul>
-
-
-  <h2>Recent History</h2>
-
-    <li><a href="http://images.bwbx.io/cms/2013-06-19/etc_caffeine26__01__630x420.jpg">Feeling?</a> Caffeinated.</li>
-    <li><a href="https://www.panerabread.com/en-us/home.html">Eating?</a> Panera, because we have zero groceries.</li>
-    <li><a href="http://www.self.com/body/celebrity/2014/10/newsroom-olivia-munn-actress-interview/">Reading?</a> Self (trying to get inspired to find the gym again).</li>
-    <li><a href="http://www.imdb.com/title/tt1631867/">Watching?</a> Edge of Tomorrow- it was good!</li>
-
-<!DOCTYPE html>
-<html>
 <head>
 <style>
 #customers {
@@ -64,7 +31,38 @@ title: Karah's Blog
 }
 </style>
 </head>
+
 <body>
+
+
+<div id="home">
+  <h2>Posts About This Class</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+   <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}/Blog{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+
+  <h2>Other Things Going On in My Life</h2>
+  <ul class="posts">
+<li><span>BLS</span> &raquo; <a href="http://baltimorelabschool.org">Last Friday I designed the program for a Celebration Event at BLS</a></li>
+  <li><span>BDS</span> &raquo; &raquo; <a href="http://baltimoredesignschool.com/">I'm helping out at the BDS Open House on Wednesday</a></li>
+</ul>
+
+  <h2>Discarded Ideas for Map Project</h2>
+  <ul class="posts">
+    <li><span>1st Choice</span> &raquo; <a href="http://www.babynamewizard.com">Baby Name Trends</a></li>
+    <li><span>2nd Choice</span> &raquo; &raquo; <a href="http://www.ggweather.com/heat/">Kids and Cars- Hyperthermia Deaths</a></li>
+    <li><span>3rd Choice</span> &raquo; &raquo; &raquo; <a href="http://www.verysmallarray.com/?p=1056">Google Search Autocomplete based on Region</a></li>
+  </ul>
+
+  <h2>Recent History</h2>
+
+    <li><a href="http://images.bwbx.io/cms/2013-06-19/etc_caffeine26__01__630x420.jpg">Feeling?</a> Caffeinated.</li>
+    <li><a href="https://www.panerabread.com/en-us/home.html">Eating?</a> Panera, because we have zero groceries.</li>
+    <li><a href="http://www.self.com/body/celebrity/2014/10/newsroom-olivia-munn-actress-interview/">Reading?</a> Self (trying to get inspired to find the gym again).</li>
+    <li><a href="http://www.imdb.com/title/tt1631867/">Watching?</a> Edge of Tomorrow- it was good!</li>
 
 <table id="customers">
   <tr>
@@ -124,7 +122,8 @@ title: Karah's Blog
   </tr>
 </table>
 
-</body>
-</html>
+
 
 </div>
+
+</body>
