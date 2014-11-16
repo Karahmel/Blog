@@ -24,8 +24,9 @@ font-size: 1em;
 }
 
 h2 {
-    font-size: .875em;
-      color: ##e7cbf3
+    font-size: 1em;
+      color: ##e7cbf3;
+      font-variant: small-caps;
 }
 
 h3 {
