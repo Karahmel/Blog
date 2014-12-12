@@ -59,6 +59,12 @@ L.mapbox.accessToken = 'pk.eyJ1Ijoia3NhbGFldHMiLCJhIjoiQUFqSDRwSSJ9.nkCxxqeEnyrE
 var map = L.map('map').setView([39.302,-76.616], 12);
 var layers = document.getElementById('menu-ui');
 
+   map.featureLayer.on('click', function(e) {
+        map.panTo(e.layer.getLatLng());
+        
+        .addControl(L.mapbox.geocoderControl('mapbox.places-v1'));
+        
+        
 addLayer(L.mapbox.tileLayer('ksalaets.kff48010'), 'Baltimore Base Map', 1);
 addLayer(L.mapbox.tileLayer('ksalaets.k8e8hb0e'), 'Neighborhoods', 2);
 addLayer(L.mapbox.tileLayer('ksalaets.kebdmg9h'), 'Top 50 Bars', 3);
