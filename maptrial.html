@@ -58,11 +58,8 @@
 L.mapbox.accessToken = 'pk.eyJ1Ijoia3NhbGFldHMiLCJhIjoiQUFqSDRwSSJ9.nkCxxqeEnyrErS-N5T0c3A';
 var map = L.map('map').setView([39.302,-76.616], 12);
 var layers = document.getElementById('menu-ui');
-
-   map.featureLayer.on('click', function(e) {
-        map.panTo(e.layer.getLatLng());
         
-        .addControl(L.mapbox.geocoderControl('mapbox.places-v1'));
+addControl(L.mapbox.geocoderControl('mapbox.places-v1'));
         
         
 addLayer(L.mapbox.tileLayer('ksalaets.kff48010'), 'Baltimore Base Map', 1);
