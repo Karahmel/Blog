@@ -26,14 +26,12 @@ var myLayer = L.mapbox.featureLayer().addTo(map);
 var geojson = {
     type: 'FeatureCollection',
     features: [{
-
         type: 'Feature',
         properties: {
             title: 'Baltimore, MD',
             'marker-color': 'black',
             'marker-size': 'large',
-            'marker-symbol': 'college',
-            url: 'http://en.wikipedia.org/wiki/Baltimore'
+            'marker-symbol': 'star',
         },
         geometry: {
             type: 'Point',
