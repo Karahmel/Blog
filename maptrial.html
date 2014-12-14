@@ -56,9 +56,6 @@
 
 <script>
 L.mapbox.accessToken = 'pk.eyJ1Ijoia3NhbGFldHMiLCJhIjoiQUFqSDRwSSJ9.nkCxxqeEnyrErS-N5T0c3A';
-    .addControl(L.mapbox.geocoderControl('mapbox.places-v1', {
-        keepOpen: true
-    }));
 var map = L.map('map').setView([39.302,-76.616], 12);
 
 var layers = document.getElementById('menu-ui');
@@ -73,6 +70,7 @@ function addLayer(layer, name, zIndex) {
     layer
         .setZIndex(zIndex)
         .addTo(map);
+
 
     // Create a simple layer switcher that
     // toggles layers on and off.
@@ -98,7 +96,13 @@ function addLayer(layer, name, zIndex) {
 }
 
 </script>
-
+<script>
+L.mapbox.accessToken = 'pk.eyJ1Ijoia3NhbGFldHMiLCJhIjoiQUFqSDRwSSJ9.nkCxxqeEnyrErS-N5T0c3A';
+L.mapbox.map('map', 'ksalaets.kff48010')
+    .addControl(L.mapbox.geocoderControl('mapbox.places-v1', {
+        keepOpen: true
+    }));
+</script>
 
 </body>
 </html>
