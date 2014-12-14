@@ -62,35 +62,6 @@ var map = L.mapbox.map('map', 'ksalaets.kff48010');
 map.setView([39.302,-76.616], 12);
 map.addControl(L.mapbox.geocoderControl('mapbox.places-v1', {
   autocomplete: true
-  var geojson = {
-    type: 'FeatureCollection',
-    features: [{
-        type: 'Feature',
-        properties: {
-            title: 'Washington, D.C.',
-            'marker-color': '#f86767',
-            'marker-size': 'large',
-            'marker-symbol': 'star',
-            url: 'http://en.wikipedia.org/wiki/Washington,_D.C.'
-        },
-        geometry: {
-            type: 'Point',
-            coordinates: [-77.03201, 38.90065]
-        }
-    },
-    {
-        type: 'Feature',
-        properties: {
-            title: 'Baltimore, MD',
-            'marker-color': '#7ec9b1',
-            'marker-size': 'large',
-            'marker-symbol': 'star',
-            url: 'http://en.wikipedia.org/wiki/Baltimore'
-        },
-        geometry: {
-            type: 'Point',
-            coordinates: [-76.60767, 39.28755]
-        }
     }]
 };
 
