@@ -66,9 +66,10 @@ map.addControl(L.mapbox.geocoderControl('mapbox.places-v1', {
 
 var layers = document.getElementById('menu-ui');
       
-addLayer(L.mapbox.tileLayer('ksalaets.kff48010,ksalaets.kg39bj3l'), 'Baltimore Base Map', 1);
+addLayer(L.mapbox.tileLayer('ksalaets.kff48010'), 'Baltimore Base Map', 1);
 addLayer(L.mapbox.tileLayer('ksalaets.6ee46154'), 'Neighborhoods', 2);
 addLayer(L.mapbox.tileLayer('ksalaets.18b318a5'), 'Top 50 Bars', 3);
+addLayer(L.mapbox.tileLayer('ksalaets.kg39bj3l'), 'Attractions', 4);
 
 
 
