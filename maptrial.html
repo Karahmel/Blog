@@ -62,15 +62,7 @@ var map = L.mapbox.map('map', 'ksalaets.kff48010');
 map.setView([39.302,-76.616], 12);
 map.addControl(L.mapbox.geocoderControl('mapbox.places-v1', {
   autocomplete: true
-}));
-
-var layers = document.getElementById('menu-ui');
-      
-addLayer(L.mapbox.tileLayer('ksalaets.kff48010'), 'Baltimore Base Map', 1);
-addLayer(L.mapbox.tileLayer('ksalaets.6ee46154'), 'Neighborhoods', 2);
-addLayer(L.mapbox.tileLayer('ksalaets.18b318a5'), 'Top 50 Bars', 3);
-
-var geojson = {
+  var geojson = {
     type: 'FeatureCollection',
     features: [{
         type: 'Feature',
@@ -127,6 +119,15 @@ function addLayer(layer, name, zIndex) {
             this.className = 'active';
         }
     };
+
+}));
+
+var layers = document.getElementById('menu-ui');
+      
+addLayer(L.mapbox.tileLayer('ksalaets.kff48010'), 'Baltimore Base Map', 1);
+addLayer(L.mapbox.tileLayer('ksalaets.6ee46154'), 'Neighborhoods', 2);
+addLayer(L.mapbox.tileLayer('ksalaets.18b318a5'), 'Top 50 Bars', 3);
+
 
     layers.appendChild(link);
 }
