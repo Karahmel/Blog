@@ -61,14 +61,19 @@ L.mapbox.accessToken = 'pk.eyJ1Ijoia3NhbGFldHMiLCJhIjoiQUFqSDRwSSJ9.nkCxxqeEnyrE
 var map = L.mapbox.map('map', 'ksalaets.kff48010');
 map.setView([39.302,-76.616], 12);
 map.addControl(L.mapbox.geocoderControl('mapbox.places-v1', {
-  autocomplete: true
+  keepOpen: true
 }));
+
+var layers = document.getElementById('menu-ui');
+
+addLayer(L.mapbox.tileLayer('ksalaets.6ee46154'), 'Neighborhoods', 1);
+addLayer(L.mapbox.tileLayer('ksalaets.18b318a5'), 'Nightlife', 2);
+addLayer(L.mapbox.tileLayer('ksalaets.6ee41d58'), 'Attractions', 3);
 
 function addLayer(layer, name, zIndex) {
     layer
         .setZIndex(zIndex)
         .addTo(map);
-
 
     // Create a simple layer switcher that
     // toggles layers on and off.
@@ -90,20 +95,8 @@ function addLayer(layer, name, zIndex) {
         }
     };
 
-}));
-
-var layers = document.getElementById('menu-ui');
-      
-addLayer(L.mapbox.tileLayer('ksalaets.kff48010'), 'Baltimore Base Map', 1);
-addLayer(L.mapbox.tileLayer('ksalaets.6ee46154'), 'Neighborhoods', 2);
-addLayer(L.mapbox.tileLayer('ksalaets.18b318a5'), 'Top 50 Bars', 3);
-
-
     layers.appendChild(link);
 }
-
 </script>
-
-
 </body>
 </html>
