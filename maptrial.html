@@ -74,7 +74,7 @@ addLayer(L.mapbox.tileLayer('ksalaets.18b318a5'), 'Nightlife', 2);
 addLayer(L.mapbox.tileLayer('ksalaets.9bc75a2e'), 'Attractions', 3);
 addLayer(L.mapbox.tileLayer('mslee.2a7c6585'), 'Grocery Stores', 4);
 //
-addLayer(L.mapbox.featureLayer({
+addLayer(L.mapbox.featureLayer(
     type: 'Feature',
     geometry: {
         type: 'Point',
@@ -89,8 +89,7 @@ addLayer(L.mapbox.featureLayer({
         'marker-size': 'large',
         'marker-color': '#BE9A6B',
         'marker-symbol': 'cafe'
-    }
-},'hiya';',5);
+    }),'hiya',5);
 .addTo(map);
 //
 
