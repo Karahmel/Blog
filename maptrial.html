@@ -60,6 +60,27 @@ L.mapbox.accessToken = 'pk.eyJ1Ijoia3NhbGFldHMiLCJhIjoiQUFqSDRwSSJ9.nkCxxqeEnyrE
  
 var map = L.mapbox.map('map', 'ksalaets.kff48010');
 map.setView([39.302,-76.616], 12);
+//
+L.mapbox.featureLayer({
+    type: 'Feature',
+    geometry: {
+        type: 'Point',
+        coordinates: [
+          -76.619768,
+          39.291130
+          ]
+    },
+    properties: {
+        title: 'My Apartment',
+        description: 'The Atrium',
+        // one can customize markers by adding simplestyle properties
+        // https://www.mapbox.com/guides/an-open-platform/#simplestyle
+        'marker-size': 'large',
+        'marker-color': '#BE9A6B',
+        'marker-symbol': 'cafe'
+    }
+}).addTo(map);
+//
 map.addControl(L.mapbox.geocoderControl('mapbox.places-v1', {
   autocomplete: true
 }));
