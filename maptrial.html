@@ -73,13 +73,11 @@ L.mapbox.featureLayer({
     properties: {
         title: 'My Apartment',
         description: 'The Atrium',
-        // one can customize markers by adding simplestyle properties
-        // https://www.mapbox.com/guides/an-open-platform/#simplestyle
         'marker-size': 'large',
         'marker-color': '#BE9A6B',
         'marker-symbol': 'cafe'
     }
-}).addTo(mslee.2a7c6585);
+}).addTo(map);
 //
 map.addControl(L.mapbox.geocoderControl('mapbox.places-v1', {
   autocomplete: true
