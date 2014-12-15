@@ -61,7 +61,20 @@ L.mapbox.accessToken = 'pk.eyJ1Ijoia3NhbGFldHMiLCJhIjoiQUFqSDRwSSJ9.nkCxxqeEnyrE
 var map = L.mapbox.map('map', 'ksalaets.kff48010');
 map.setView([39.302,-76.616], 12);
 //
-L.mapbox.featureLayer({
+
+//
+map.addControl(L.mapbox.geocoderControl('mapbox.places-v1', {
+  autocomplete: true
+}));
+
+var layers = document.getElementById('menu-ui');
+
+addLayer(L.mapbox.tileLayer('ksalaets.6ee46154'), 'Neighborhoods', 1);
+addLayer(L.mapbox.tileLayer('ksalaets.18b318a5'), 'Nightlife', 2);
+addLayer(L.mapbox.tileLayer('ksalaets.9bc75a2e'), 'Attractions', 3);
+addLayer(L.mapbox.tileLayer('mslee.2a7c6585'), 'Grocery Stores', 4);
+//
+addLayer(L.mapbox.featureLayer({
     type: 'Feature',
     geometry: {
         type: 'Point',
@@ -77,19 +90,9 @@ L.mapbox.featureLayer({
         'marker-color': '#BE9A6B',
         'marker-symbol': 'cafe'
     }
-}).addTo(map);
+},'hiya';',5);
+.addTo(map);
 //
-map.addControl(L.mapbox.geocoderControl('mapbox.places-v1', {
-  autocomplete: true
-}));
-
-var layers = document.getElementById('menu-ui');
-
-addLayer(L.mapbox.tileLayer('ksalaets.6ee46154'), 'Neighborhoods', 1);
-addLayer(L.mapbox.tileLayer('ksalaets.18b318a5'), 'Nightlife', 2);
-addLayer(L.mapbox.tileLayer('ksalaets.9bc75a2e'), 'Attractions', 3);
-addLayer(L.mapbox.tileLayer('mslee.2a7c6585'), 'Grocery Stores', 4);
-
 
 function addLayer(layer, name, zIndex) {
     layer
