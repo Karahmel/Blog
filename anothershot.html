@@ -21,32 +21,25 @@ L.mapbox.accessToken = 'pk.eyJ1Ijoia3NhbGFldHMiLCJhIjoiQUFqSDRwSSJ9.nkCxxqeEnyrE
 var map = L.mapbox.map('map', 'ksalaets.kg39bj3l,ksalaets.kff48010')
   .setView([39.12367, -76.81229], 9);
 
-var myLayer = L.mapbox.featureLayer().addTo(map);
-
-var geojson = {
-    type: 'FeatureCollection',
-    features: [{
-        type: 'Feature',
-        properties: {
-            title: 'Baltimore, MD',
-            'marker-color': 'black',
-            'marker-size': 'large',
-            'marker-symbol': 'star',
-        },
-        geometry: {
-            type: 'Point',
-            coordinates: [-76.60767, 39.28755]
-        }
-    }]
-};
-
-myLayer.setGeoJSON(geojson);
-myLayer.on('mouseover', function(e) {
-    e.layer.openPopup();
-});
-myLayer.on('mouseout', function(e) {
-    e.layer.closePopup();
-});
+L.mapbox.featureLayer({
+    type: 'Feature',
+    geometry: {
+        type: 'Point',
+        coordinates: [
+          -77.03221142292,
+          38.913371603574 
+        ]
+    },
+    properties: {
+        title: 'Peregrine Espresso',
+        description: '1718 14th St NW, Washington, DC',
+        // one can customize markers by adding simplestyle properties
+        // https://www.mapbox.com/guides/an-open-platform/#simplestyle
+        'marker-size': 'large',
+        'marker-color': '#BE9A6B',
+        'marker-symbol': 'cafe'
+    }
+}).addTo(map);
 </script>
 
 
