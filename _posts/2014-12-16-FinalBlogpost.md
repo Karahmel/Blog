@@ -15,6 +15,6 @@ We had high hopes, then some low points, and now we're just about in the middle.
 
 ![](http://karahmel.github.io/Blog/images/baroriginal.jpeg)
 ![](http://karahmel.github.io/Blog/images/neighborhoodsoriginal.png)
-![](http://karahmel.github.io/Blog/images/nothingshowsup.png)
+![](http://karahmel.github.io/Blog/images/neednice.png)
 ![](http://karahmel.github.io/Blog/images/itsallgone.png)
-![](http://karahmel.github.io/Blog/images/thebreakpointthroughmaybe/png)
+![](http://karahmel.github.io/Blog/images/thebreakthroughpointmaybe/png)
