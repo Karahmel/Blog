@@ -13,6 +13,6 @@ This is the PDF of our project pitch. We got feedback about API data and that to
 
 <br/>
 <br/>
-
-![](http://karahmel.github.io/Blog/pdfs/pitch.pdf)
+ <li><span>Pitch PDF</span> &raquo; &raquo; <a href="http://karahmel.github.io/Blog/pdfs/pitch.pdf">HERE</a></li>
+![]()
 
