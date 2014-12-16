@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pitch of Baltimore Map Project
+title: The Final Post
 ---
 
 
@@ -13,8 +13,5 @@ We had high hopes, then some low points, and now we're just about in the middle.
 <br/>
 <br/>
 
-![](http://karahmel.github.io/Blog/images/baroriginal.jpeg)
-![](http://karahmel.github.io/Blog/images/neighborhoodsoriginal.png)
-![](http://karahmel.github.io/Blog/images/nothingshowsup.png)
+![](http://karahmel.github.io/Blog/images/startingtowork.png)
 ![](http://karahmel.github.io/Blog/images/itsallgone.png)
-![](http://karahmel.github.io/Blog/images/thebreakpointthroughmaybe/png)
