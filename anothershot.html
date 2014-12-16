@@ -1,5 +1,49 @@
-<iframe width='100%' height='100%' frameBorder='50' src='https://a.tiles.mapbox.com/v4/ksalaets.kebkjk1f/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1Ijoia3NhbGFldHMiLCJhIjoiQUFqSDRwSSJ9.nkCxxqeEnyrErS-N5T0c3A'></iframe>
+
+<html>
+<head>
+<meta charset=utf-8 />
+<title>I'm so angry</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+
+
+<div id='map'></div>
+
+<script>
+L.mapbox.accessToken = 'pk.eyJ1Ijoia3NhbGFldHMiLCJhIjoiQUFqSDRwSSJ9.nkCxxqeEnyrErS-N5T0c3A';
+var map = L.mapbox.map('map', 'ksalaets.kg39bj3l,ksalaets.kff48010')
+  .setView([39.12367, -76.81229], 9);
+
+L.mapbox.featureLayer({
+    type: 'Feature',
+    geometry: {
+        type: 'Point',
+        coordinates: [
+          -76.619768,
+          39.291130
+          ]
+    },
+    properties: {
+        title: 'My Apartment',
+        description: 'The Atrium',
+        // one can customize markers by adding simplestyle properties
+        // https://www.mapbox.com/guides/an-open-platform/#simplestyle
+        'marker-size': 'large',
+        'marker-color': '#BE9A6B',
+        'marker-symbol': 'cafe'
+    }
+}).addTo(map);
+</script>
 
 
 
-<iframe width='100%' height='100%' frameBorder='50' src='https://api.tiles.mapbox.com/v4/ksalaets.k8e8hb0e/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1Ijoia3NhbGFldHMiLCJhIjoiQUFqSDRwSSJ9.nkCxxqeEnyrErS-N5T0c3A'></iframe>
+
+</body>
+</html>
