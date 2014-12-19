@@ -16,4 +16,6 @@ We had high hopes, then some low points, and now we're just about in the middle.
 ![](http://karahmel.github.io/Blog/images/startingtowork.png)
 ![](http://karahmel.github.io/Blog/images/itsallgone.png)
 
-<br/> Our first iteration of the map can be found <a-ref='http://karahmel.github.io/Baltisaur' here.
+<br/> Our first iteration of the map can be found <a ref="http://karahmel.github.io/Baltisaur" here. </a> Enjoy!
+
+<a href="http://i.imgur.com/EV24xuD.jpg">like so.</a>
